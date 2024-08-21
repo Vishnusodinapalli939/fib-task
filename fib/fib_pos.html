@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    //     let num=+prompt("enter your position");
+    //     let a=0,b=1,i=1;
+    //     if(num==1)
+    //         alert(a);
+    //     else if(num==2)
+    //         alert(b);
+    //     else{
+    //         while(i<num){
+    //         console.log(a,i);
+    //             c=a+b;
+    //             a=b;
+    //             b=c;
+    //             i++;
+    //         }
+    //         alert(a);
+    // }
+    
+    function fibPos(num){
+            let a=0,b=1,i=1;
+            while(i<num){
+                if(i==num){
+                    console.log(a);
+                    break;
+                }
+                c=a+b;
+                a=b;
+                b=c;
+                i++;
+            }
+            return a;
+ }
+    num=+prompt("enter your position");
+    alert(fibPos(num));
+        
+        
+    </script>
+</body>
+</html>
